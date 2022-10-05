@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formga stil berish</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-box">
+        <form  class="form">
+            <h1>Form submit</h1>
+            <label for="name">
+                <p>Name: </p>
+                <input type="text" name="name" id="name" placeholder="your name..."required>
+            </label>
+            <label for="surname">
+                <p>Surname: </p>
+                <input type="text" name="surname" id="surname" placeholder="your surname..."required>
+            </label>
+            <label for="password">
+                <p>Password: </p>
+                <input type="password" name="password" id="password" placeholder="your password..."required>
+            </label>
+            <label class="choose">
+                <div class="gender">
+                    <p>Gender: </p>
+                <select class="gender-g"required>
+                    <option disabled selected>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+                </div>
+                <div class="age">
+                    <p>Age: </p>
+                <select class="age-a"required>
+                    <option disabled selected>Age</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                </select>
+
+                </div>
+            </label>
+            <label for="textarea">
+                <P>About you: </P>
+                <textarea name="textarea" id="textarea" rows="5" placeholder="about you..."required></textarea>
+            </label>
+            <button>submit</button>
+        </form>
+    </div>
+</body>
+</html>

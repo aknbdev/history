@@ -1,0 +1,28 @@
+.feature-box{
+    cursor: default;
+    padding: 60px 20px;
+    @include responsive(desktop){
+        padding: 50px 30px;  
+    }
+    @include responsive(phone){
+        padding: 50px 70px;  
+    }
+    background-color: $color-white;
+    border-radius: $border-radius;
+    text-align: center;
+    @include transition;
+    &:hover{
+        transform: translateY(-15px) scale(1.02);
+    }
+    .feature-image{
+        width: 80px;
+        height: 80px;
+    }
+    .feature-title{
+        margin-top: 23px;
+        margin-bottom: 12px;
+    }
+    .feature-text{
+        font-size: 16px;
+    }
+}

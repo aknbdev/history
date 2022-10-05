@@ -1,0 +1,157 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    display: flex;
+    justify-content:center;
+    font-family: sans-serif;
+    background-image: url(galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+header h1 {
+    display: inline-block;
+}
+
+.container {
+    width: 100%;
+    margin: 100px 0;
+    display: grid;
+    grid-template: repeat(7, 70px)/ repeat(5, 70px);
+    justify-content: space-evenly;
+    gap: 50px 0;
+    grid-template-areas: "name name name name name"
+}
+
+.nikname {
+    grid-area: name;
+    color:aliceblue;
+    text-align: center;
+}
+
+.myco {
+    background-color: cadetblue;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+.text {
+    background-color: black;
+    color:white;
+/*    width: 0 100px;*/
+    padding: 2px 15px;
+    border-radius: 10px;
+    text-transform:uppercase;
+}
+
+.col-1 {
+    background-color: #f8b195;
+}
+.col-2 {
+    background-color: #f67280;
+}
+.col-3 {
+    background-color: #c06c84;
+}
+.col-4 {
+    background-color: #6c5b7b;
+}
+.col-5 {
+    background-color: #355c7d;
+}
+.col-6 {
+    background-color: #a8e6ce;
+}
+.col-7 {
+    background-color: #dcedc2;
+}
+.col-8 {
+    background-color: #ffd3b5;
+}
+.col-9 {
+    background-color: #ffaaa6;
+}
+.col-10 {
+    background-color: #ff8c94;
+}
+.col-11 {
+    background-color: #51e2fc;
+}
+.col-12 {
+    background-color: #9df9ef;
+}
+.col-13 {
+    background-color: #edf2f6;
+}
+.col-14 {
+    background-color: #ffabb6;
+}
+.col-15 {
+    background-color: #a28089;
+}
+.col-16 {
+    background-color: #f8b195;
+}
+.col-17 {
+    background-color: #f67280;
+}
+.col-18 {
+    background-color: #c06c84;
+}
+.col-19 {
+    background-color: #6c5b7b;
+}
+.col-20 {
+    background-color: #355c7d;
+}
+.col-21 {
+    background-color: #034c65;
+}
+.col-22 {
+    background-color: #ef8c86;
+}
+.col-23 {
+    background-color: #fcb677;
+}
+.col-24 {
+    background-color: #685268;
+}
+.col-25 {
+    background-color: #2f1f2b;
+}
+
+.number-of-color {
+    display: flex;
+    justify-content: center;
+}
+
+.number {
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

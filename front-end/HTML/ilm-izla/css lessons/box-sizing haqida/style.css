@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.circle {
+    width:400px;
+    height:400px;
+    background-color:blue;
+    border-radius:50%;
+    padding:100px 0;
+}
+
+.square {
+    width:200px;
+    height:200px;
+    background-color:red;
+    margin:0 auto;
+    
+}

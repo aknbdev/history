@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  width: 400px;
+  min-height: 500px;
+  background-color: rgb(202, 202, 202);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label p {
+  color: #726a6a;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: #7c7c7c;
+}
+
+select {
+  font-weight: bold;
+  color: #7c7c7c;
+}
+
+textarea {
+  font-weight: bold;
+  color: #7c7c7c;
+}
+.choose {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gender {
+  width: 45%;
+  display: inline-block;
+}
+
+.age {
+  width: 45%;
+  display: inline-block;
+}
+
+/* .age p{
+    display:flex;
+    justify-content: flex-end;
+} */
+
+input,
+select,
+textarea {
+  margin-bottom: 20px;
+}
+
+button {
+  color: white;
+  background-color: rgb(58, 56, 56);
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(105, 105, 105);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 40px;
+  max-height: 200px;
+}
+
+/* .practise{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(../../../Images.A.K.N.B/Boy_cat.jpg);
+    background-position: center;
+}
+
+.practise:focus{
+    border-radius: 10px;
+} */

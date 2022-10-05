@@ -1,0 +1,14 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(120deg,white 50%, black 50%), url(IMG_20200509_180225_772.jpg);
+}
+ 
+
+

@@ -1,0 +1,28 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    margin: 50px 0 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: 1fr;
+    gap: 15px;
+}
+
+.item {
+    background-color: gold;
+    border: 1px solid black;
+/*    text-align: center;*/
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,44 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    [class^="col-"]{
+        margin-bottom: $gap-vertical;
+        @include responsive(phone){
+            margin-bottom: 20px;
+        }
+    }
+
+    .col-1-of-2{
+        width: calc((100% - #{$gap-horizontal}) / 2);
+    }
+    .col-1-of-3{
+        width: calc((100% - 2 * #{$gap-horizontal}) / 3);
+        @include responsive(phone){
+            width: calc((100% - #{$gap-horizontal}) / 2); 
+        }
+    }
+
+    .col-2-of-3{
+        width: calc(2 * ((100% - 2 * #{$gap-horizontal}) / 3) + #{$gap-horizontal});
+    }
+
+    .col-1-of-4{
+        width: calc((100% - 3 * #{$gap-horizontal}) / 4);
+        @include responsive(desktop){
+            width: calc((100% - #{$gap-horizontal}) / 2);  
+        }
+        @include responsive(phone){
+            width: 100%;
+        }
+    }
+
+    .col-2-of-4{
+        width: calc(2 * ((100% - 3 * #{$gap-horizontal}) / 4) + #{$gap-horizontal} );
+    }
+
+    .col-3-of-4{
+        width: calc(3 * ((100% - 3 * #{$gap-horizontal}) / 4) + 2 * #{$gap-horizontal} );
+    }
+}

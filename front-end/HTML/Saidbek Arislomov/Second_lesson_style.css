@@ -1,0 +1,206 @@
+.bottom {
+    margin-top :170px;
+    text-align:center;
+}
+
+.body , h2 {
+    margin: 0;
+}
+
+.clr {
+    clear:both;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+
+.box-1 {
+    background-color:grey;
+    color:#fff;
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.box-1 h2{
+    text-decoration: underline;
+    font-family: sans serif;
+}
+
+.box-1 p {
+}
+
+.box-2 {
+    margin-top:30px;
+    border: 3px dashed black;
+    color:black;
+    padding:20px;
+}
+
+.button {
+    background-color:#222;
+    color:#fff;
+    font-size:15px;
+    border: 3px solid #222;
+    border-radius:7px;
+    padding: 5px 15px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:#fff;
+    color:#222;
+    
+}
+
+.box-3 {
+    margin:20px 0;
+    border:3px solid #555;
+    padding:20px;
+}
+
+.box-3 h1 {
+    text-align:center;
+    color:#555;
+    font-family:sans sarif;
+    
+}
+
+.categories {
+    padding:0;
+   
+}
+
+.categories li {
+    list-style-type: none;
+    padding: 5px o;
+    border-bottom:3px solid black
+}
+
+.myform{
+    
+    
+}
+
+.myform label{
+    display:block;
+    font-size:20px;
+    color:#555;
+}
+
+.myform input, textarea{
+    margin:5px;
+    padding:5;
+    width:100%;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing:border-box;
+}
+
+.content {
+    float:left;
+    width:70%;
+}
+
+.sidebar {
+    float:left;
+    width:30%;
+    background-color:#333;
+    color:aliceblue;
+    padding:0 10px;
+    box-sizing:border-box;
+}
+
+.relative {
+    position:relative;
+    top:1px;
+    width:373px;
+    height:370px;
+    background-image: url(Images.A.K.N.B/Boy_cat.jpg);
+   background-size: cover;
+}
+
+.absolute {
+    position:absolute;
+    top:20%;
+    left:10%;
+}
+
+.absolute h3 {
+    color:white;
+}
+
+.absolute2 {
+    position:absolute;
+    top:50%;
+    right:10%;
+}
+
+.absolute2 h3 {
+    color:white;
+}
+
+.fixed {
+    position: fixed;
+    left:0;
+    bottom:5%;
+}
+
+.list-items li{
+    color:#555;
+    padding:5px;
+    list-style-type: none;
+}
+
+.list-items li:first-child {
+    background-color:red;
+    color:aliceblue;
+}
+
+.list-items li:nth-child(even) {
+    background-color:green;
+    color:#fff;
+}
+
+.list-items li:last-child {
+    background-color:blue;
+    color:white;
+}
+
+.table1 {
+    width:100%;
+    padding:5px;
+    border-collapse: collapse;
+}
+
+.table1 th {
+    border:1px solid black;
+    background-color:green;
+    color:#fff;
+    padding:5px;
+}
+
+.table1 td {
+    border:1px solid black;
+    text-align:center;
+    padding:5px;
+}
+
+.table1 tr:nth-child(even) {
+    background-color:bisque;
+}
+
+
+
+
+
+
+
+
+

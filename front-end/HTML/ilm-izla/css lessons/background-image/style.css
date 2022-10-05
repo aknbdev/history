@@ -1,0 +1,28 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+.background-image {
+    background-image: url("../../Images.A.K.N.B/00b18dc1867c42a94c844a3b1144262e.jpg");
+/*    width:500px;*/
+    min-height:500px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top:130px;
+}
+
+.box-1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width:400px;
+    min-height:100px;
+    margin:0 auto;
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+}
+
+

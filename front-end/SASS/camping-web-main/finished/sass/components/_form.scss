@@ -1,0 +1,40 @@
+.form{
+    &__subtitle{
+        font-size: 16px;
+        margin-top: 14px;
+        margin-bottom: 30px;
+    }
+    &__box{
+        background-color: $color-white;
+        border-radius: $border-radius;
+        padding: 15px;
+        box-shadow: 5px 10px 30px rgba($color-secondary, .05);
+        @include flex(space-between)
+    }
+    &__input{
+        outline: none;
+        width: 100%;
+        padding: 15px;
+        background-image: url("../images/message.png");
+        background-repeat: no-repeat;
+        background-position: 15px 50%;
+        text-indent: 30px;
+        &:focus{
+            background-image: none;
+            text-indent: 0;
+        }
+    }
+
+    &__submit{
+        width: 55px;
+        height: 50px;
+        background-color: $color-primary;
+        border-radius: $border-radius;
+        box-shadow: 5px 10px 30px rgba($color-primary, .04);
+        @include center;
+        @include transition(background-color);
+        &:hover{
+            background-color: darken($color-primary, 5%);
+        }
+    }
+}

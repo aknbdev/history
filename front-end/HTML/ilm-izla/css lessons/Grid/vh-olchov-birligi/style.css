@@ -1,0 +1,26 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 50%;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 100px;
+    background-color: blueviolet;
+}

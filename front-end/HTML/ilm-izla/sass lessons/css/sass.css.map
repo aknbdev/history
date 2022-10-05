@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,IAAI,CAAC;EACH,gBAAgB,ECFP,GAAG;EDGZ,OAAO,EAAE,IAAI;CACd;;AACD,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "../HTML_lessons.html/Ilm Izla/sass.folder/sass.scss",
+        "../HTML_lessons.html/Ilm Izla/sass.folder/_variables.scss"
+    ],
+    "names": [],
+    "file": "sass.css"
+}

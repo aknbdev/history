@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  padding: 30px;
+}
+
+header {
+  background-color: #ff33ff;
+  padding: 20px 0;
+}
+
+nav {
+  background-color: #33ff33;
+}
+
+.section-1 {
+  background-color: #33ffff;
+  padding: 20px 0;
+}
+
+.section-2 {
+  background-color: #3333ff;
+  padding: 20px 0;
+}
+
+.aside {
+  background-color: #ff33ff;
+  padding: 20px 0;
+}

@@ -1,0 +1,48 @@
+@mixin flex($jc: flex-start) {
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+@mixin transition($property: all) {
+    transition: $property .3s ease;
+}
+
+/*
+
+0px - 576px -> phone
+576px - 768px -> tab
+768px - 992px -> desktop
+992px - 1200px -> lg-desktop
+1200px - .. -> normal style
+
+*/ 
+
+@mixin responsive($breakpoint) {
+   @if $breakpoint == phone {
+
+        @media (max-width: 576px) { @content };
+
+   }
+   @if $breakpoint == tab {
+
+        @media (max-width: 768px) { @content };
+
+    }
+    @if $breakpoint == desktop {
+
+        @media (max-width: 992px) { @content };
+
+}
+   @if $breakpoint == lg-desktop {
+
+        @media (max-width: 1200px) { @content };
+
+    }
+}

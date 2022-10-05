@@ -1,0 +1,23 @@
+/* Rang nomlari - 140 ta */
+.Usul1 {
+    background-color: blue ;
+    color:white;
+}
+
+/* HEX ranglari */
+.Usul2 {
+    background-color: #1ae821;
+    color :white;
+}
+
+/* RGB " rgb (red, green, blue) 0-255" */
+.Usul3 {
+    background-color : rgb(0, 0, 255);
+    color: white;
+}
+
+/* RGBA "rgba (red, green, blue, alpha) 0.0 - 1.0" */
+.Usul4 {
+    background-color: rgba( 0, 0, 255, 0.5);
+    color:white;
+}

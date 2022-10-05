@@ -1,0 +1,76 @@
+.feature{
+    transform: translateY(-30%);
+    @include responsive(desktop){
+        transform: translateY(-20%);   
+    }
+    @include responsive(phone){
+        transform: translateY(-15%);   
+    }
+}
+
+.explore{
+    margin-top: 50px;
+    @include responsive(phone){
+        margin-top: 20px; 
+    }
+    text-align: center;
+    &__title{
+        width: 40%;
+        @include responsive(lg-desktop){
+            width: 60%;
+        }
+        @include responsive(phone){
+            width: 100%;
+        }
+        margin: 0 auto;
+    }
+}
+
+.touch{
+    margin-top: 150px; 
+    @include responsive(phone){
+        margin-top: 100px;
+    }
+    &_box{
+        background-color: $color-bg-2;
+        border-radius: $border-radius;
+        padding: 40px;
+        @include responsive(tab){
+            padding: 60px 40px;  
+        }
+        align-items: center;
+        background-image: url("../images/shape.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -400px 60%;
+        box-shadow: 5px 30px 50px rgba($color-secondary, .05);
+        @include responsive(desktop){
+            background-position: -300px 60%;
+        }
+    }
+
+    .row{
+        @include responsive(tab){
+            flex-wrap: wrap-reverse;
+            text-align: center;
+        }  
+    }
+    
+    .form{
+        width: 50%;
+        @include responsive(tab){
+            width: 100%;
+        }
+    }
+    &__image{
+        width: 30%;
+        @include responsive(tab){
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.footer{
+    margin-top: 150px;
+}

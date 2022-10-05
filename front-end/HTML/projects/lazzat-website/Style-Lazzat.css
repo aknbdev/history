@@ -1,0 +1,217 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    list-style:none;
+}
+
+body {
+/*    font-family:sans-serif;*/
+}
+
+.visual-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:o;
+    border:0;
+    width:1px;
+    height:1px;
+    overflow: hidden;
+}
+
+.bc-orange {
+    background-color: #f0932b;
+}
+
+.bc-lightblue {
+    background-color: #7ed6df;
+}
+
+.bc-lightred {
+    background-color: #ff7979;
+}
+
+.bc-green {
+    background-color: #badc58;
+}
+
+.bc-orange:hover{
+    background-color: rgba(240, 147, 43, .5);
+}
+
+.bc-lightblue:hover{
+    background-color: rgba(126, 214, 223, .5);
+}
+
+.bc-lightred:hover{
+    background-color: rgba(255, 121, 121, .5);
+}
+
+.bc-green:hover{
+    background-color: rgba(186, 220, 88, .5);
+}
+
+header{
+    background-image: url(Lazzat-Images/chef-icon.png);
+
+    background-repeat: no-repeat;
+    background-position:center;
+    padding:90px 0;
+    text-align: center;
+}
+
+.comname {
+    font-size :60px;
+}
+
+.slogan {
+    font-weight:600;
+    font-family:sans-serif;
+}
+
+nav {
+    width: 80%;
+    margin: 50px auto;
+    border:1px solid rgb(0,0,0,-1);
+    text-align: center;
+}
+
+.navbar {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    color: darkgrey;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a {
+    display:inline-block;
+    font-size:20px;
+    color: rgb(0,0,0,.8);
+    text-decoration:none;
+    text-transform: capitalize;
+    transition: 0.3s;
+    padding: 30px 35px;
+}
+
+.navlink:hover {
+    background-color: rgba(0,0,0,.3);
+}
+
+.recipes-list {
+    width:80%;
+    margin:0 auto;
+    text-align:left;
+}
+
+.recipe-item {
+    width:30%;
+    margin:10px 2.2%;
+    margin-bottom:20px;
+    display:inline-block;
+}
+
+.recipe-item:nth-child(1),.recipe-item:nth-child(4){
+    margin-left:0;
+}
+
+.recipe-item:nth-child(3),.recipe-item:nth-child(6){
+    margin-right:0;
+}
+
+.recipe-img {
+    width:100%;
+    height:200px;
+    object-fit:color;
+}
+
+.recipe-category {
+    text-decoration:none;
+    color: white;
+/*    background-color: #f0932b;*/
+    display:inline-block;
+    padding:5px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.recipe-title {
+    margin: 10px 0;
+}
+
+.title-link {
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+    text-transform: uppercase;
+    font-size:12px;
+    margin:15px o;
+}
+
+.title-link:hover {
+    color:#ff7979;
+}
+
+.main {
+    text-align: center;
+}
+
+.all-recipes {
+    text-decoration:none;
+    color:#ff7979;
+    border:3px solid #ff7979;
+    display:inline-block;
+    padding:15px 30px;
+    margin:40px 0;
+}
+
+.all-recipes:hover {
+    background-color:#ff7979;
+    color:white;
+}
+
+.form {
+    background-image: url(Lazzat-Images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y:-50px; 
+    padding: 100px 0;
+    text-align: center;
+}
+
+.email-input {
+    padding:10px 20px;
+    width:400px;
+    border: none;
+    margin-right: 20px;
+}
+
+.email-submit {
+    padding:10px 40px;
+    border:none;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+
+.subcribe-text {
+    color:white;
+    margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

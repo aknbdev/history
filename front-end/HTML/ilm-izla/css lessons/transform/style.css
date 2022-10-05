@@ -1,0 +1,44 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-size:40px;
+    font-weight: bold;
+    color:red;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: #8b008b;
+}
+
+.box p {
+/*    transform: translate(40px,100px );*/
+/*    transform:rotate(10deg);*/
+/*    transform: scale(2);*/
+/*    transform: scaleX(2);*/
+/*    transform: scaleY(2);*/
+/*    transform: skew(20deg);*/
+/*    transform: skewx(20deg);*/
+/*    transform: skewy(20deg);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(biz-haqimizda-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    height:100vh;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.myname {
+    text-align: center;
+    font-size: 40px;
+    color: #F8B195;
+}
+
+.myname span {
+    color: #fa4659;
+    font-family: sans;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.mylist {
+    display:flex;
+    justify-content: space-between
+}
+.mylist li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.mylink{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700px;
+}
+
+.navbar li::after {
+    content: '';
+    width: 100%;
+    height: 0px;
+    display: block;
+    background: #fa4659;
+    margin-top: 10px;
+}
+
+.navbar li:hover::after {
+    height:4px;
+}
+
+.navbar li:nth-child(2)::after {
+    height:4px;
+}
+
+.section {
+    
+}
+
+.box-1 {
+    width: 100%;
+    max-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    color:white;
+    font-family: sans-serif;
+}
+
+.join {
+    text-align: center;
+}
+
+.btn-a {
+    background-color: yellow;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.btn-a:hover {
+    color: black;
+    background-color: #51E2FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

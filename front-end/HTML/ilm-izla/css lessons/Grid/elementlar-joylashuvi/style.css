@@ -1,0 +1,37 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-size:20px;
+}
+
+.container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+.item-1 {
+    background-color: #999;
+}
+.item-2 {
+    background-color: #ff0404;
+    grid-column-start: 2;
+    grid-column-end: 4;    
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item-3 {
+    background-color: #49ff86;
+}
+.item-4 {
+    background-color: #5e5cdb;
+}
+
+
+
+

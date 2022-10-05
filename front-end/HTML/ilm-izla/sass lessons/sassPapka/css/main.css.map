@@ -1,0 +1,24 @@
+{
+    "version": 3,
+    "mappings": "AMAA,AAAA,UAAU,CAAC;EACT,KAAK,EHUK,MAAM;CGTjB;;AMFD,AAAA,OAAO,CAAC;EACN,aAAa,EAAE,eAAe;EAE5B,gBAAK,EAAE,qEAIJ,EACD,gCAAgC;EAGlC,WAAG,EAAE,IAAI;EACT,cAAM,EAAE,KAAK;CAEhB",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/abstracts/_functions.scss",
+        "../scss/abstracts/_mixins.scss",
+        "../scss/abstracts/_variables.scss",
+        "../scss/base/_reset.scss",
+        "../scss/base/_topography.scss",
+        "../scss/base/_utilities.scss",
+        "../scss/components/_buttons.scss",
+        "../scss/components/_card.scss",
+        "../scss/components/_form.scss",
+        "../scss/components/_feature-box.scss",
+        "../scss/layout/_footer.scss",
+        "../scss/layout/_header.scss",
+        "../scss/layout/_navigations.scss",
+        "../scss/layout/_grid.scss",
+        "../scss/pages/_home.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

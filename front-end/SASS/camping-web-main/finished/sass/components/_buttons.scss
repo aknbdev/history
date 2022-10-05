@@ -1,0 +1,72 @@
+.sign-up,.sign-in{
+    display: inline-block;
+    padding: 15px 25px;
+    color: $color-white;
+    font-weight: 500;
+}
+.sign-in{
+    border: 1px solid $color-white;
+    border-radius: 30px;
+    @include transition;
+    &:hover{
+        background-color: $color-white;
+        border: 1px solid transparent;
+        color: $color-secondary;
+    }
+} 
+
+.nav__burger{
+        display: none;
+        @include responsive(desktop){
+            width: 50px;
+            height: 50px;
+            background-color: $color-white;
+            border-radius: $border-radius;
+            @include center;
+            margin-left: auto;
+        }
+       
+}
+
+.btn{
+        display: inline-block;
+        padding: 15px 60px;
+        border-radius: 30px;
+        &--primary{
+            background-color: $color-primary;
+            @include transition;
+            &:hover{
+                background-color: darken($color-primary, 5%);
+            }
+        }
+        &--outline{
+            background-color: transparent;
+            border: 1px solid $color-primary;
+            color: $color-primary;
+            font-weight: 500;
+            @include transition;
+            &:hover{
+                background-color: $color-primary;
+                color: $color-white;
+                border: 1px solid transparent;
+            }
+        }
+        
+} 
+
+.scroll-up{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: $color-white;
+    border-radius: $border-radius;
+    @include center;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    transform: translateY(calc(-50% - 100px) );
+    @include responsive(tab){
+        right: 50%;
+        transform: translate(50%, calc(-50% - 100px));
+      }
+}

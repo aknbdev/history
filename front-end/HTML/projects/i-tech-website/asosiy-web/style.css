@@ -1,0 +1,106 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(asosiy-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+header {
+    width:100%;
+}
+
+nav {
+    margin-left:80px;
+}
+
+nav h1 {
+    color: #F8B195;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 30px;
+}
+
+nav ul {
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display:inline-block;
+    list-style: none;
+    margin-right:30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size:20px;
+}
+
+nav ul li::after {
+    content:'';
+    width:100%;
+    height:0px;
+    display:block;
+    background: #fa4659;
+    margin-top: 10px;
+}
+
+nav ul li:hover::after {
+    height:4px;
+    transition: .3s;
+}
+
+nav ul li:first-child::after {
+    height:4px;
+}
+
+div {
+    margin-top: 200px;
+    text-align: center;
+    color: #fa4569;
+}
+
+div h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+div button {
+    width: 180px;
+    height:45px;
+    font-size:20px;
+    color: #fa4659;
+    background: transparent;
+    border: 4px solid #fa4659;
+    border-radius: 20px;
+    margin-right:20px;
+}
+
+div button:hover {
+    background: #fa4659;
+    color: #fff;
+    transition: .5s;
+}
+
+nav h1 span {
+    color: #fa4659;
+    font-size: 40px;
+    font-family: serif;
+}
+
+
+

@@ -1,0 +1,15 @@
+.header {
+  border-radius: 0 0 200px 200px;
+  background: {
+    image: linear-gradient(
+        to top,
+        rgba($color-secondary, 0.4),
+        rgba($color-secondary, 0.4)
+      ),
+      url("../../images/bg-image.jpg");
+  }
+  padding: {
+    top: 60px;
+    bottom: 250px;
+  }
+}

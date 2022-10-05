@@ -1,0 +1,11 @@
+body {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  font-size: 30px;
+}
+/*# sourceMappingURL=sass.css.map */

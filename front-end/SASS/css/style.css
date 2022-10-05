@@ -1,0 +1,64 @@
+/*Bu izoh*/
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f81919;
+}
+
+.nav {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  margin-left: 0;
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav__btn {
+  color: white;
+  padding: 1px 10px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.nav__btn:hover {
+  background-color: #f81919;
+}
+
+.nav__btn_blue {
+  background-color: blue;
+}
+
+.nav__btn_green {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

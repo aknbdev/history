@@ -1,0 +1,23 @@
+p {
+    color: red;
+    text-align: center;
+}
+
+th ,td{
+    border: solid 1px black;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h2 {
+    text-align: center;
+}
+#ordered {
+    color: aqua;
+}
+.unordered{
+    color: blue;
+}
